@@ -38,6 +38,11 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
         "backgroundColor": "#55B6C3",
         "borderColor": "#55B6C3",
         "data": [${data}],
+        trendlineLinear: {
+        style: "rgba(255,105,180, .8)",
+        lineStyle: "dotted|solid",
+        width: 2
+        },
         "fill": false,
         "spanGaps": false,
         "lineTension": 0,
