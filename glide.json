@@ -1,0 +1,46 @@
+{
+  "kind": "column",
+  "name": "Customized line chart Optimal",
+  "description": "",
+  "author": "Thinh Dinh <thinh@lowcode.agency>",
+  "params": [
+    {
+      "name": "data",
+      "displayName": "Data",
+      "type": "string"
+    },
+    {
+      "name": "labels",
+      "displayName": "Date labels",
+      "type": "string"
+    },
+    {
+      "name": "width",
+      "displayName": "Width (default to 96vw)",
+      "type": "number"
+    },
+    {
+      "name": "height",
+      "displayName": "Height (default to 100vh)",
+      "type": "number"
+    },
+    {
+      "name": "title",
+      "displayName": "Chart title",
+      "type": "string"
+    },
+    {
+      "name": "tooltip",
+      "displayName": "Tooltip type",
+      "type": "string"
+    },
+    {
+      "name": "unit",
+      "displayName": "Tooltip unit",
+      "type": "string"
+    }
+  ],
+  "result": {
+    "type": "uri"
+  }
+}
