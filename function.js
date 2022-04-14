@@ -64,10 +64,9 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
     responsive: true,
     maintainAspectRatio: false,
     trendlineLinear: {
-		style: "rgba(255,105,180, .8)",
+		style: "red",
 		lineStyle: "solid",
-		width: 2,
-		projection: false
+		width: 2
     },
     layout: {
         padding: {
