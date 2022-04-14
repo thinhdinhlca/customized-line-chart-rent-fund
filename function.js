@@ -17,7 +17,7 @@ window.function = function (data, labels, width, height, title, tooltip, unit) {
   <head>
     <meta charset="utf-8">
     <title>Glide Yes-Code</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0/dist/chartjs-plugin-datalabels.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline"></script>
   </head>
