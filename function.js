@@ -19,7 +19,6 @@ window.function = function (data, labels, width, height, title, tooltip, unit) {
     <title>Glide Yes-Code</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0/dist/chartjs-plugin-datalabels.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline"></script>
   </head>
   <body>
   <div class="chart-container" style="position: relative; height:${height}vh; width:${width}vw">
