@@ -75,8 +75,8 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
             }
         }
     },
-    "title": {
-      "display": true,
+    title: {
+      display: true,
       "text": "${title}",
       "position": "top",
       "fontSize": 20,
@@ -270,7 +270,7 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
     },
     "plugins": {
     legend: {
-      display: true
+      display: false
     },
       "datalabels": {
         "display": false,
