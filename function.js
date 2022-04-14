@@ -91,14 +91,6 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
       "padding": 20,
       "lineHeight": 1.2
     },
-    "layout": {
-      "padding": {
-        "left": 0,
-        "right": 0,
-        "top": 0,
-        "bottom": 0
-      }
-    },
     "legend": {
       "display": false,
       "position": "top",
