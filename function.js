@@ -19,8 +19,6 @@ window.function = function (data, labels, width, height, title, tooltip, unit) {
     <title>Glide Yes-Code</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0/dist/chartjs-plugin-datalabels.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline"></script>
   </head>
   <body>
   <div class="chart-container" style="position: relative; height:${height}vh; width:${width}vw">
@@ -75,8 +73,8 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
             }
         }
     },
-    title: {
-      display: true,
+    "title": {
+      "display": true,
       "text": "${title}",
       "position": "top",
       "fontSize": 20,
@@ -85,6 +83,14 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
       "fontStyle": "700",
       "padding": 20,
       "lineHeight": 1.2
+    },
+    "layout": {
+      "padding": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      }
     },
     "legend": {
       "display": false,
@@ -269,9 +275,6 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
       ]
     },
     "plugins": {
-    legend: {
-      display: false
-    },
       "datalabels": {
         "display": false,
         "align": "center",
