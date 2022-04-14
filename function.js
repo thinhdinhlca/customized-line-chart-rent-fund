@@ -19,6 +19,8 @@ window.function = function (data, labels, width, height, title, tooltip, unit) {
     <title>Glide Yes-Code</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline"></script>
   </head>
   <body>
   <div class="chart-container" style="position: relative; height:${height}vh; width:${width}vw">
@@ -61,6 +63,12 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
   "options": {
     responsive: true,
     maintainAspectRatio: false,
+    trendlineLinear: {
+		style: "rgba(255,105,180, .8)",
+		lineStyle: "solid",
+		width: 2,
+		projection: false
+    },
     layout: {
         padding: {
             bottom: 20
