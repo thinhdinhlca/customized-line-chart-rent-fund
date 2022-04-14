@@ -40,11 +40,6 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
         "backgroundColor": "#55B6C3",
         "borderColor": "#55B6C3",
         "data": [${data}],
-	trendlineLinear: {
-	style: "red",
-	lineStyle: "dotted",
-	width: 3
-	},
         "fill": false,
         "spanGaps": false,
         "lineTension": 0,
