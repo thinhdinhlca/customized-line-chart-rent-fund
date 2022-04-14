@@ -41,9 +41,9 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
         "borderColor": "#55B6C3",
         "data": [${data}],
 	trendlineLinear: {
-	style: "rgba(255,105,180, .8)",
+	style: "red",
 	lineStyle: "dotted",
-	width: 2
+	width: 3
 	},
         "fill": false,
         "spanGaps": false,
