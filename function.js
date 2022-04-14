@@ -282,6 +282,9 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
       ]
     },
     "plugins": {
+    legend: {
+      display: false
+    },
       "datalabels": {
         "display": false,
         "align": "center",
