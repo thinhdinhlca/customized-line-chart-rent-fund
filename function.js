@@ -92,7 +92,10 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
         displayColors: false,
         callbacks: {
             label: function(context) {
-                    return context.dataset.label + ": " + context.parsed.y + '%';
+                if(context.dataset.label == "TPO") {
+                  return context.dataset.label + ": " + context.parsed.y + "%";
+                }
+              else return context.dataset.label + ": " + context.parsed.y;
             }
         }
     },
