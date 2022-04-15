@@ -102,10 +102,10 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
     title: {
       "display": true,
       "text": "${title}",
+      "color": "#111111",
       font: {
       "size": 20,
       "family": "BlinkMacSystemFont",
-      "color": "#111111",
       "weight": "700",
       "lineHeight": 1.2
     }
