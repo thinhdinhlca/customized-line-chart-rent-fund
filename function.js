@@ -87,7 +87,7 @@ image.src = "https://i.imgur.com/SkTd1Yc.png";
         displayColors: false,
         callbacks: {
             label: function(context) {
-                return "Total fund: " + context.parsed.y + " USD";
+                return context.dataset.label +": $" + context.parsed.y;
             }
         }
     },
