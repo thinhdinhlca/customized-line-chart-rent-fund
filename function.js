@@ -27,7 +27,7 @@ window.function = function (data, labels, width, height, title, tooltip, unit) {
     <script>
 
 const image = new Image(20,20);
-image.src = "https://i.imgur.com/Bo7rl1y.png";
+image.src = "https://i.imgur.com/SkTd1Yc.png";
 
     let config = {
   "type": "line",
@@ -52,12 +52,7 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
         "categoryPercentage": 0.8,
         "type": "line",
         "borderWidth": 3,
-        "hidden": false,
-        trendlineLinear: {
-        style: "red",
-        lineStyle: "solid",
-        width: 2
-        }
+        "hidden": false
       }
     ],
     "labels": [${labels}]
@@ -92,10 +87,7 @@ image.src = "https://i.imgur.com/Bo7rl1y.png";
         displayColors: false,
         callbacks: {
             label: function(context) {
-                if(context.dataset.label == "TPO") {
-                  return context.dataset.label + ": " + context.parsed.y + "%";
-                }
-              else return context.dataset.label + ": " + context.parsed.y;
+                return context.dataset.label + " USD";
             }
         }
     },
