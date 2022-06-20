@@ -35,8 +35,8 @@ image.src = "https://i.imgur.com/SkTd1Yc.png";
     "datasets": [
       {
         "label": "${tooltip}",
-        "backgroundColor": "#55B6C3",
-        "borderColor": "#55B6C3",
+        "backgroundColor": "#5E17EB",
+        "borderColor": "#5E17EB",
         "data": [${data}],
         "fill": false,
         "spanGaps": false,
